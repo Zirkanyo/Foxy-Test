@@ -5,11 +5,12 @@ html
       link(rel="stylesheet", href="assets/css/style.css", attr)
       link(rel="stylesheet", href="assets/css/flexboxgrid.min.css", attr)
    body
-      section
-         article(class='not row')
-            img(src="img/not.svg", class='col-sm-12', alt="Notificacion")
-            div(class='noti col-sm-12') 4
+      div.header
+         div(class='bell-icon')
+            img(src="img/not.svg", alt="Notificacion")
+            div(class='noti') 4
          
+      section
          article(class='row art_t')
             div(class='rojo')
             div(class='col-sm-2 cj-t')
