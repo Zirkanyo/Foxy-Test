@@ -1,2 +1,3 @@
 # Foxy-Test
-Foxy-Test
+Added package.json
+
