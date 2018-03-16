@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "concurrently -k \"npm run dev\" \"npm run watch-css\" \"npm run watch-html\"",
-    "dev": "lite-server",
+    "dev": "lite-server -c bs-config.js",
     "build-css": "node-sass --include-path sass src/sass/style.sass dist/assets/css/style.css",
     "build-html": "pug --watch src/html/index.pug --out dist/ --pretty",
     "watch-css": "nodemon -e sass -x \"npm run build-css\"",
