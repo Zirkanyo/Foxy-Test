@@ -8,12 +8,14 @@ body {
   background-color: #f0f0f0;
   width: 100%; }
 
-section {
-  width: 700px; }
-  section article.not {
+div.header {
+  width: 700px;
+  text-align: center; }
+  div.header div.bell-icon {
     background-color: none;
-    position: relative; }
-    section article.not .noti {
+    position: relative;
+    display: inline-block; }
+    div.header div.bell-icon .noti {
       background-color: #FF2861;
       border-radius: 50%;
       padding: 5px 10px 5px 10px;
@@ -21,11 +23,14 @@ section {
       color: #fff;
       position: absolute;
       top: 50px;
-      left: 360px; }
-    section article.not img {
+      left: 20px; }
+    div.header div.bell-icon img {
+      margin: 50px 0px 60px 0px;
       width: 50px;
-      height: 50px;
-      margin: 50px 0px 60px 0px; }
+      height: 50px; }
+
+section {
+  width: 700px; }
   section article.art_t {
     background-color: #fff;
     border-radius: 10px;
